@@ -1,0 +1,33 @@
+body{
+    background-image: url('./images/page_vf.jpg');
+    background-repeat: no-repeat;
+    background-size: 1440px 900px;
+    background-color: black;
+    background-position-x: center;
+    position: relative;
+}
+
+body div{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+small{
+    position: absolute;
+    top: 875px;
+    color: #8dced3;
+    font-family: Arial;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#_preload_div_{
+    top: 150px !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
+}
